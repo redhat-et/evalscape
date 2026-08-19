@@ -24,7 +24,7 @@ A visual landscape of AI model benchmarking tools and evaluation frameworks — 
 
 ## What's in it
 
-60 tools across 12 categories, plus **34 public leaderboards** and **14 evaluation standards** covering model rankings, governance frameworks (NIST AI RMF, ISO 42001), industry benchmarks (MLPerf, SPEC ML), and regulations (EU AI Act).
+61 tools across 12 categories, plus **34 public leaderboards** and **14 evaluation standards** covering model rankings, governance frameworks (NIST AI RMF, ISO 42001), industry benchmarks (MLPerf, SPEC ML), and regulations (EU AI Act).
 
 | Category | What it covers |
 |---|---|
