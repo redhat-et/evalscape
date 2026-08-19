@@ -2,7 +2,7 @@
 
 A visual landscape of AI model benchmarking tools and evaluation frameworks — searchable, filterable, and organized by category.
 
-**Live site:** https://maryamtahhan.github.io/evalscape/
+**Live site:** https://redhat-et.github.io/evalscape/
 
 ---
 
@@ -50,7 +50,7 @@ Each tool card shows organization info, description, hardware support, benchmark
 No build step required for the site itself. Just open `index.html` in a browser:
 
 ```bash
-git clone https://github.com/maryamtahhan/evalscape.git
+git clone https://github.com/redhat-et/evalscape.git
 cd evalscape
 open index.html          # macOS
 ```
@@ -193,9 +193,11 @@ Logos and trademarks are property of their respective owners. Evalscape is an in
 
 ## Deployment
 
-The site deploys automatically to GitHub Pages via GitHub Actions on every push to `main`. No configuration needed beyond enabling Pages in the repo settings:
+The site deploys automatically to GitHub Pages via GitHub Actions on every push to `main`:
 
-**Settings → Pages → Source → GitHub Actions**
+**https://redhat-et.github.io/evalscape/**
+
+Pages source should remain **GitHub Actions** (`Settings → Pages → Source → GitHub Actions`). Do not add a custom domain `CNAME` unless that domain is verified on this repository — a leftover `CNAME` will take the site off `*.github.io`.
 
 A separate workflow validates `data.js` on every PR, and another refreshes GitHub star counts, archived status, and logos weekly (Monday 06:00 UTC).
 
